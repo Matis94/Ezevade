@@ -2729,7 +2729,7 @@ namespace zzzz
                     dangerlevel = 2,
                     missileName = "OrianaIzunaCommand",
                     name = "Commnad: Attack",
-                    projectileSpeed = 1200,
+                    projectileSpeed = 1400,
                     radius = 80,
                     secondaryRadius = 145,
                     range = 1650,
