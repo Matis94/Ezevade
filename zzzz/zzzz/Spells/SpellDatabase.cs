@@ -4241,7 +4241,7 @@ namespace zzzz
                     spellDelay = 250,
                     spellKey = SpellSlot.Q,
                     spellName = "XayahQ",
-					extraSpellNames = new[] {"XayahQMissile2"},
+		    extraSpellNames = new[] {"XayahQMissile2"},
                     spellType = SpellType.Line
                 });
 				
@@ -4298,7 +4298,6 @@ namespace zzzz
                     spellKey = SpellSlot.R,
                     spellName = "WarwickR",
                     spellType = SpellType.Line
-					//FixedRange = true
                 });
 
 
