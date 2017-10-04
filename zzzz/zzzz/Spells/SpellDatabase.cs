@@ -4263,7 +4263,7 @@ namespace zzzz
 				
 				//TODO Fix 
 				
-			Spells.Add(
+            Spells.Add(
                 new SpellData
                 {
                     charName = "Xayah",
@@ -4306,7 +4306,7 @@ namespace zzzz
 			
 	    #region Ornn
 
-            Spells.Add(
+             Spells.Add(
                 new SpellData
                 {
                     charName = "Ornn",
@@ -4322,7 +4322,7 @@ namespace zzzz
                     spellType = SpellType.Line
                 });
 				
-			Spells.Add(
+            Spells.Add(
                 new SpellData
                 {
                     charName = "Ornn",
@@ -4338,7 +4338,7 @@ namespace zzzz
                     spellType = SpellType.Line
                 });
 				
-			Spells.Add(
+            Spells.Add(
                 new SpellData
                 {
                     charName = "Ornn",
