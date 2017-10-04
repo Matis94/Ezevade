@@ -557,25 +557,25 @@ namespace zzzz
                     spellType = SpellType.Cone
                 });
 
-            //Spells.Add(
-            //new SpellData
-            //{
-            //    charName = "Cassiopeia",
-            //    dangerlevel = 1,
-            //    name = "Miasama",
-            //    //missileName = "CassiopeiaWMissile",
-            //    //projectileSpeed = 2800,
-            //    radius = 200,
-            //    range = 900,
-            //    spellDelay = 250,
-            //    extraEndTime = 500,
-            //    spellKey = SpellSlot.W,
-            //    spellName = "CassiopeiaW",
-            //    spellType = SpellType.Circular,
-            //    trapTroyName = "cassiopeia_base_w_wcircle_tar_" + Situation.EmitterTeam() + ".troy",
-            //    //updatePosition = false,
-            //    hasTrap = true
-            //});
+            /*Spells.Add(
+            new SpellData
+            {
+                charName = "Cassiopeia",
+                dangerlevel = 1,
+                name = "Miasama",
+                missileName = "CassiopeiaWMissile",
+                projectileSpeed = 2800,
+                radius = 300,
+                range = 1000,
+                spellDelay = 250,
+                extraEndTime = 500,
+                spellKey = SpellSlot.W,
+                spellName = "CassiopeiaW",
+                spellType = SpellType.Circular,
+                trapTroyName = "cassiopeia_base_w_wcircle_tar_" + Situation.EmitterTeam() + ".troy",
+                //updatePosition = false,
+                hasTrap = true
+                });*/
 
             Spells.Add(
                 new SpellData
@@ -1027,49 +1027,51 @@ namespace zzzz
 
             #region Galio
 
-            Spells.Add(
+           /* Spells.Add(
                 new SpellData
                 {
                     charName = "Galio",
                     dangerlevel = 2,
-                    missileName = "GalioRighteousGust",
-                    name = "Righteous Gust",
-                    projectileSpeed = 1300,
+                    missileName = "galioe",
+                    name = "GalioE",
+                    projectileSpeed = 0,
                     radius = 120,
-                    range = 1280,
+                    range = 600,
                     spellDelay = 250,
                     spellKey = SpellSlot.E,
-                    spellName = "GalioRighteousGust",
+                    spellName = "GalioE",
                     spellType = SpellType.Line
-                });
+                });/*/
+				//TODO Fix detect
 
             Spells.Add(
                 new SpellData
                 {
                     charName = "Galio",
                     dangerlevel = 2,
-                    missileName = "GalioResoluteSmite",
-                    name = "Resolute Smite",
-                    projectileSpeed = 1200,
-                    radius = 235,
-                    range = 1040,
+                    missileName = "GalioQSuper",
+                    name = "GalioQ",
+                    projectileSpeed = 1300,
+                    radius = 200,
+                    range = 825,
                     spellDelay = 250,
+					extraEndTime = 3300,
                     spellKey = SpellSlot.Q,
-                    spellName = "GalioResoluteSmite",
+                    spellName = "GalioQ",
                     spellType = SpellType.Circular
-                });
+                });				
 
             Spells.Add(
                 new SpellData
                 {
                     charName = "Galio",
                     dangerlevel = 4,
-                    name = "Idol Of Durand",
+                    name = "GalioR",
                     radius = 575,
-                    range = 575,
-                    spellDelay = 250,
+                    range = 4000,
+                    spellDelay = 1000,
                     spellKey = SpellSlot.R,
-                    spellName = "GalioIdolOfDurand",
+                    spellName = "GalioR",
                     spellType = SpellType.Circular
                 });
 
@@ -1527,21 +1529,20 @@ namespace zzzz
             #endregion Ivern
 
             #region Janna
-
+							
             Spells.Add(
                 new SpellData
                 {
                     charName = "Janna",
                     dangerlevel = 2,
-                    missileName = "HowlingGaleSpell",
+                    missileName = "HowlingGale",
                     name = "Howling Gale",
-                    projectileSpeed = 900,
+                    projectileSpeed = 1400,
                     radius = 120,
                     range = 1700,
-                    spellDelay = 0,
+                    spellDelay = 250,
                     spellKey = SpellSlot.Q,
-                    spellName = "HowlingGale",
-					//extraSpellNames = new[] {"HowlingGaleSpell14", "HowlingGaleSpell16"},
+                    spellName = "HowlingGaleSpell",
                     spellType = SpellType.Line,
                     usePackets = true
                 });
@@ -2728,7 +2729,7 @@ namespace zzzz
                     dangerlevel = 2,
                     missileName = "OrianaIzunaCommand",
                     name = "Commnad: Attack",
-                    projectileSpeed = 1400,
+                    projectileSpeed = 1200,
                     radius = 80,
                     secondaryRadius = 145,
                     range = 1650,
@@ -4202,7 +4203,6 @@ namespace zzzz
                     spellType = SpellType.Line
                 });
 
-
             #endregion Kayn
 			
 	    #region Rakan
@@ -4222,7 +4222,6 @@ namespace zzzz
                     spellName = "RakanQ",
                     spellType = SpellType.Line
                 });
-
 
             #endregion Rakan
 			
@@ -4245,7 +4244,7 @@ namespace zzzz
                     spellType = SpellType.Line
                 });
 				
-			/*Spells.Add(
+            /*Spells.Add(
                 new SpellData
                 {
                     charName = "Xayah",
@@ -4261,7 +4260,7 @@ namespace zzzz
                     spellType = SpellType.Line
                 });/*/
 				
-				//TODO Fix 
+	       //TODO Fix 
 				
             Spells.Add(
                 new SpellData
@@ -4278,7 +4277,6 @@ namespace zzzz
                     spellName = "XayahR",
                     spellType = SpellType.Line
                 });
-
 
             #endregion Xayah
 			
@@ -4300,12 +4298,11 @@ namespace zzzz
                     spellType = SpellType.Line
                 });
 
-
             #endregion Warwick
 			
 	    #region Ornn
 
-             Spells.Add(
+            Spells.Add(
                 new SpellData
                 {
                     charName = "Ornn",
@@ -4353,8 +4350,48 @@ namespace zzzz
                     spellType = SpellType.Line
                 });
 
-
             #endregion Ornn
+			
+	    #region Camille
+
+            Spells.Add(
+                new SpellData
+                {
+                    charName = "Camille",
+                    dangerlevel = 3,
+                    missileName = "CamilleEMissile",
+                    name = "CamilleE",
+                    projectileSpeed = 1400,
+                    radius = 150,
+                    range = 1200,
+                    spellDelay = 250,
+                    spellKey = SpellSlot.E,
+                    spellName = "CamilleE",
+		    extraSpellNames = new[] {"CamilleEDash2", "camilleerightmissile"},
+                    spellType = SpellType.Line
+                });
+				
+            #endregion Camille
+			
+	    #region Gangplank
+
+            Spells.Add(
+                new SpellData
+                {
+                    charName = "Gangplank",
+                    dangerlevel = 3,
+                    missileName = "GangplankE",
+                    name = "GangplankE",
+                    projectileSpeed = 500,
+                    radius = 300,
+                    range = 1000,
+                    spellDelay = 251,
+                    spellKey = SpellSlot.E,
+                    spellName = "GangplankE",
+                    spellType = SpellType.Circular
+                });
+				
+            #endregion Gangplank
 
             #region Ziggs
 
