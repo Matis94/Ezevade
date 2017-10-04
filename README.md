@@ -16,4 +16,8 @@ Warwick R
 Ornn Q
 Ornn E
 Ornn R
+Gangplank E
+Camille E
+Galio Q
+Galio R
 
