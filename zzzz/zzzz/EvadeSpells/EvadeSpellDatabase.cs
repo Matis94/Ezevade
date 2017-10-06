@@ -232,6 +232,28 @@ namespace zzzz
                 });
 
             #endregion
+                
+            #region Kalista
+
+            Spells.Add(
+                new EvadeSpellData
+                {
+                    charName = "Kalista",
+                    dangerlevel = 3,
+                    name = "KalistaPierce",
+                    spellName = "KalistaPierce",
+                    range = 300,
+                    speed = 2100,
+                    fixedRange = true,
+                    spellDelay = 50,
+                    spellKey = SpellSlot.Q,
+                    evadeType = EvadeType.Dash,
+                    castType = CastType.Position,
+                    untargetable = true,
+                    isReversed = true
+                });
+
+            #endregion
 
             #region Fiora
 
