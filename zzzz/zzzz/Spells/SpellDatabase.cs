@@ -1536,6 +1536,7 @@ namespace zzzz
                     charName = "Janna",
                     dangerlevel = 2,
                     missileName = "howlinggalespell2",
+		    extraSpellNames = new[] {"howlinggalespell6"},
                     name = "Howling Gale",
                     projectileSpeed = 1400,
                     radius = 120,
@@ -1543,7 +1544,6 @@ namespace zzzz
                     spellDelay = 250,
                     spellKey = SpellSlot.Q,
                     spellName = "HowlingGaleSpell",
-		  //Broken//extraSpellNames = new[] {"HowlingGaleSpell6"},
                     spellType = SpellType.Line,
                     usePackets = true
                 });
