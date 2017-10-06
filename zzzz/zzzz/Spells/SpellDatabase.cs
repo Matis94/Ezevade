@@ -1027,22 +1027,22 @@ namespace zzzz
 
             #region Galio
 
-           /* Spells.Add(
+           Spells.Add(
                 new SpellData
                 {
                     charName = "Galio",
                     dangerlevel = 2,
-                    missileName = "galioe",
+                    missileName = "GalioEMissile",
                     name = "GalioE",
-                    projectileSpeed = 0,
+                    projectileSpeed = 1400,
                     radius = 120,
                     range = 600,
                     spellDelay = 250,
                     spellKey = SpellSlot.E,
                     spellName = "GalioE",
                     spellType = SpellType.Line
-                });/*/
-				//TODO Fix detect
+                });
+				// Not testing
 
             Spells.Add(
                 new SpellData
@@ -1055,7 +1055,7 @@ namespace zzzz
                     radius = 200,
                     range = 825,
                     spellDelay = 250,
-					extraEndTime = 3300,
+		    extraEndTime = 3300,
                     spellKey = SpellSlot.Q,
                     spellName = "GalioQ",
                     spellType = SpellType.Circular
