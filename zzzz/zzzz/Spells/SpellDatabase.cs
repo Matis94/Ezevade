@@ -1035,14 +1035,13 @@ namespace zzzz
                     missileName = "GalioEMissile",
                     name = "GalioE",
                     projectileSpeed = 1400,
-                    radius = 120,
-                    range = 600,
+                    radius = 130,
+                    range = 700,
                     spellDelay = 250,
                     spellKey = SpellSlot.E,
                     spellName = "GalioE",
                     spellType = SpellType.Line
                 });
-				// Not testing
 
             Spells.Add(
                 new SpellData
@@ -2731,7 +2730,7 @@ namespace zzzz
                     missileName = "OrianaIzunaCommand",
                     name = "Commnad: Attack",
                     projectileSpeed = 1400,
-                    radius = 80,
+                    radius = 85,
                     secondaryRadius = 145,
                     range = 1650,
                     spellDelay = 0,
