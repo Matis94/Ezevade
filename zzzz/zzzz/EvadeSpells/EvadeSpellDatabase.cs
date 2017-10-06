@@ -240,10 +240,10 @@ namespace zzzz
                 {
                     charName = "Kalista",
                     dangerlevel = 3,
-                    name = "KalistaPierce",
+                    name = "KalistaQ",
                     spellName = "KalistaPierce",
-                    range = 300,
-                    speed = 2100,
+                    range = 1200,
+                    speed = 1700,
                     fixedRange = true,
                     spellDelay = 50,
                     spellKey = SpellSlot.Q,
